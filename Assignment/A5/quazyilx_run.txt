@@ -1,0 +1,21 @@
+total_rows-query: select count(*) from quazyilx
+total_rows:   Row(count(1)=100000000)
+
+total_errors-query: select count(*) from quazyilx where fnard = -1 and fnok = -1 and cark = -1 and gnuck = -1
+total_errors:   Row(count(1)=190)
+
+one_error_others_gt5-query: select count(*) from quazyilx where fnard = -1 and fnok > 5 and cark > 5
+one_error_others_gt5:   Row(count(1)=2114009)
+
+first_date-query: select min(datetime) from quazyilx
+first_date:   Row(min(datetime)='2000-01-01T00:00:03')
+
+last_date-query: select max(datetime) from quazyilx
+last_date:   Row(max(datetime)='2017-06-05T18:03:07')
+
+first_error_date-query: select min(datetime) from quazyilx b where fnard = -1 and fnok = -1 and cark = -1 and gnuck = -1
+first_error_date:   Row(min(datetime)='2000-01-28T03:07:44')
+
+last_error_date-query: select max(datetime) from quazyilx b where fnard = -1 and fnok = -1 and cark = -1 and gnuck = -1
+last_error_date:   Row(max(datetime)='2017-04-21T04:57:10')
+

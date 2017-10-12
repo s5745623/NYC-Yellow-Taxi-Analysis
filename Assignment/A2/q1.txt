@@ -1,0 +1,24 @@
+Enter your AWS ClI epxort command for the basic cluster with three nodes:
+
+
+
+0: <aws emr create-cluster --auto-scaling-role EMR_AutoScaling_DefaultRole --applications Name=Hadoop --ec2-attributes '{"KeyName":"anly502","InstanceProfile":"EMR_EC2_DefaultRole","SubnetId":"subnet-38893004","EmrManagedSlaveSecurityGroup":"sg-62238e1e","EmrManagedMasterSecurityGroup":"sg-60238e1c"}' --service-role EMR_DefaultRole --enable-debugging --release-label emr-5.2.1 --log-uri 's3n://aws-logs-388632690643-us-east-1/elasticmapreduce/' --name 'anly502-steven' --instance-groups '[{"InstanceCount":1,"InstanceGroupType":"MASTER","InstanceType":"m3.xlarge","Name":"Master - 1"},{"InstanceCount":2,"InstanceGroupType":"CORE","InstanceType":"m3.xlarge","Name":"Core - 2"}]' --scale-down-behavior TERMINATE_AT_INSTANCE_HOUR --region us-east-1>
+
+
+Answer these questions:
+
+Where are the log files stored?
+
+1:s3n://aws-logs-388632690643-us-east-1/elasticmapreduce/
+
+In what region was the cluster created:
+
+2:us-east-1
+
+What applications were included with the cluster?
+
+3:Hadoop
+
+
+
+

@@ -1,0 +1,1 @@
+# download and serch to a t2.nano instancesource: s3://gu-anly502/A1/quazyilx1.txt   # should be proper S3 URLdate: 2017-01-18T16:09:11                   # Date, in ISO-8601 timemode: downloaddownload: 107                               # in secondssearch: 76                                 # also in secondsmalfunctions: 190                            # in lines

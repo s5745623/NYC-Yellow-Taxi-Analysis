@@ -1,0 +1,1 @@
+# streaming to a t2.nanodate: 2017-01-18T18:12:30   # Date, in ISO-8601 timemode: streamingstreaming: 112 malfunctions: 190

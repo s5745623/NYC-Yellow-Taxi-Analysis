@@ -1,0 +1,9 @@
+#
+# Your results go into this file.
+# They will be written as JSON objects
+{"nodes": 5, "output": "output-2017-01-30T23-50-41", "date": 1485820375.4986124, "seconds": 132.6659379005432, "node": "ip-172-31-44-112", "input:": "s3://gu-anly502/A1/quazyilx1.txt"}
+{"input:": "s3://gu-anly502/A1/quazyilx2.txt", "date": 1485820851.3229525, "seconds": 409.0234489440918, "output": "output-2017-01-30T23-54-00", "node": "ip-172-31-44-112", "nodes": 5}
+{"node": "ip-172-31-44-112", "date": 1485821700.4074023, "seconds": 790.7483892440796, "nodes": 5, "input:": "s3://gu-anly502/A1/quazyilx3.txt", "output": "output-2017-01-31T00-01-48"}
+{"nodes": 7, "output": "output-2017-01-31T00-21-28", "seconds": 102.2371072769165, "node": "ip-172-31-44-112", "input:": "s3://gu-anly502/A1/quazyilx1.txt", "date": 1485822192.3368363}
+{"input:": "s3://gu-anly502/A1/quazyilx2.txt", "node": "ip-172-31-44-112", "date": 1485822500.9435568, "seconds": 295.3118906021118, "nodes": 7, "output": "output-2017-01-31T00-23-23"}
+{"output": "output-2017-01-31T00-28-24", "seconds": 662.3531415462494, "input:": "s3://gu-anly502/A1/quazyilx3.txt", "node": "ip-172-31-44-112", "date": 1485823168.8973877, "nodes": 7}

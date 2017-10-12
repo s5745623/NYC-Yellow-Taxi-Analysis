@@ -1,0 +1,6 @@
+https://s3.amazonaws.com/StevenChang/Massive+Data/hours_count.svg
+https://s3.amazonaws.com/StevenChang/Massive+Data/hours_distance_totalamount.svg
+https://s3.amazonaws.com/StevenChang/Massive+Data/months_count.svg
+https://s3.amazonaws.com/StevenChang/Massive+Data/months_sum.svg
+https://s3.amazonaws.com/StevenChang/Massive+Data/hours_sum.svg
+https://s3.amazonaws.com/StevenChang/Massive+Data/kmeans.html

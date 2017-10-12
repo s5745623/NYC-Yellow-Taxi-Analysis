@@ -1,0 +1,2 @@
+s3:s3://StevenChang/q6-malfunctions.txt
+http:https://s3.amazonaws.com/StevenChang/q6-malfunctions.txt

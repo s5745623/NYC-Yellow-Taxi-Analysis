@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.3.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.3.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="plotdiv" id="bbf6fdf3-3138-4880-b062-3bfa29e2be5c"></div>
+        </div>
+        
+        <script type="text/javascript">
+            Bokeh.$(function() {
+            Bokeh.safely(function() {
+                var docs_json = {"f0aee62c-0202-4988-bcc6-60c0d0ed67ad":{"roots":{"references":[{"attributes":{"callback":null,"plot":{"id":"30d2f858-dab8-4456-944b-bf8436c6f674","type":"GMapPlot"},"tooltips":[["latitude,longitude","(@latitude, @longitude)"]]},"id":"1913a15a-aca9-4a7d-93da-2903067dbdcb","type":"HoverTool"},{"attributes":{},"id":"395cc43a-0f05-408b-a4f5-e5a82afc1917","type":"ToolEvents"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"0d1d1848-c824-4e7c-8f30-56f635c895b1","type":"BoxAnnotation"},{"attributes":{"callback":null},"id":"53126b0b-dd69-428b-898f-cd71a8d761eb","type":"DataRange1d"},{"attributes":{"plot":{"id":"30d2f858-dab8-4456-944b-bf8436c6f674","type":"GMapPlot"}},"id":"05652ede-a375-465e-88d2-04bdba5a624c","type":"PanTool"},{"attributes":{"api_key":"AIzaSyBZha7DKqyZDkEBIdsMh1ESZzxXnkZLcYw","map_options":{"lat":40.687611,"lng":-73.893925,"map_type":"roadmap","zoom":10},"renderers":[{"id":"2d13b712-9a9e-492b-b72d-e229d82d870e","type":"GlyphRenderer"},{"id":"0d1d1848-c824-4e7c-8f30-56f635c895b1","type":"BoxAnnotation"}],"title":{"id":"e852d3f9-889a-430a-9cc2-1e7832fab6bc","type":"Title"},"tool_events":{"id":"395cc43a-0f05-408b-a4f5-e5a82afc1917","type":"ToolEvents"},"toolbar":{"id":"851ee628-5301-4a6b-856c-db6cdb382949","type":"Toolbar"},"x_range":{"id":"53126b0b-dd69-428b-898f-cd71a8d761eb","type":"DataRange1d"},"y_range":{"id":"36cba644-0ba2-4d12-8bc8-28c319c7c1a5","type":"DataRange1d"}},"id":"30d2f858-dab8-4456-944b-bf8436c6f674","type":"GMapPlot"},{"attributes":{"active_drag":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"05652ede-a375-465e-88d2-04bdba5a624c","type":"PanTool"},{"id":"3ca005f6-b18f-4827-b599-2379a7354f29","type":"WheelZoomTool"},{"id":"47f0cd48-1c16-435a-b6e9-7a8c510ff80e","type":"BoxSelectTool"},{"id":"1913a15a-aca9-4a7d-93da-2903067dbdcb","type":"HoverTool"}]},"id":"851ee628-5301-4a6b-856c-db6cdb382949","type":"Toolbar"},{"attributes":{"plot":{"id":"30d2f858-dab8-4456-944b-bf8436c6f674","type":"GMapPlot"}},"id":"3ca005f6-b18f-4827-b599-2379a7354f29","type":"WheelZoomTool"},{"attributes":{"data_source":{"id":"83544b9b-41c8-44b5-ad45-26eb8bb553a0","type":"ColumnDataSource"},"glyph":{"id":"7f5ba7b1-61ce-44db-9a80-5685d995c5c0","type":"Circle"},"hover_glyph":null,"nonselection_glyph":null,"selection_glyph":null},"id":"2d13b712-9a9e-492b-b72d-e229d82d870e","type":"GlyphRenderer"},{"attributes":{"callback":null,"overlay":{"id":"0d1d1848-c824-4e7c-8f30-56f635c895b1","type":"BoxAnnotation"},"plot":{"id":"30d2f858-dab8-4456-944b-bf8436c6f674","type":"GMapPlot"}},"id":"47f0cd48-1c16-435a-b6e9-7a8c510ff80e","type":"BoxSelectTool"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"blue"},"line_color":{"value":null},"size":{"units":"screen","value":10},"x":{"field":"longitude"},"y":{"field":"latitude"}},"id":"7f5ba7b1-61ce-44db-9a80-5685d995c5c0","type":"Circle"},{"attributes":{"callback":null},"id":"36cba644-0ba2-4d12-8bc8-28c319c7c1a5","type":"DataRange1d"},{"attributes":{"callback":null,"column_names":["longitude","latitude"],"data":{"latitude":[40.75185573100319],"longitude":[-73.97166342388421]}},"id":"83544b9b-41c8-44b5-ad45-26eb8bb553a0","type":"ColumnDataSource"},{"attributes":{"plot":null,"text":"Kmeans"},"id":"e852d3f9-889a-430a-9cc2-1e7832fab6bc","type":"Title"}],"root_ids":["30d2f858-dab8-4456-944b-bf8436c6f674"]},"title":"Bokeh Application","version":"0.12.3"}};
+                var render_items = [{"docid":"f0aee62c-0202-4988-bcc6-60c0d0ed67ad","elementid":"bbf6fdf3-3138-4880-b062-3bfa29e2be5c","modelid":"30d2f858-dab8-4456-944b-bf8436c6f674"}];
+                
+                Bokeh.embed.embed_items(docs_json, render_items);
+            });
+        });
+        </script>
+    </body>
+</html>
